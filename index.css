@@ -1,0 +1,86 @@
+body {
+  margin: 0 auto;
+  width: 1200px;
+  color: #333;
+  background-image: url("background.gif"); }
+
+.container {
+  width: 100%;
+  float: left;
+  background-size: cover;
+  border-left: solid 1px #CCCCCC;
+  border-right: solid 1px #CCCCCC; }
+
+.sidebar {
+  float: left;
+  width: 300px; }
+  .sidebar .image {
+    margin-top: 10rem; }
+    .sidebar .image img {
+      width: 200px;
+      margin-left: 50px; }
+  .sidebar .card {
+    text-align: center;
+    float: left;
+    width: 260px;
+    padding: 20px; }
+    .sidebar .card p {
+      text-align: left;
+      margin: 0 5px;
+      font-size: 14px;
+      line-height: 40px;
+      width: 250px; }
+    .sidebar .card h1 {
+      font-size: 22px; }
+    .sidebar .card h2 {
+      font-size: 16px;
+      color: #666666; }
+    .sidebar .card .line {
+      width: 260px;
+      line-height: 30px;
+      float: left; }
+      .sidebar .card .line .meta {
+        float: left;
+        width: 60px;
+        font-weight: 600;
+        font-size: 12px;
+        text-align: right;
+        margin-right: 10px; }
+      .sidebar .card .line .value {
+        float: left;
+        width: 190px;
+        font-size: 14px;
+        text-align: left; }
+  .sidebar .text-center {
+    text-align: center; }
+
+.body {
+  float: right;
+  width: 900px;
+  padding-bottom: 30rem; }
+  .body .card {
+    width: 860px;
+    padding: 10px 20px;
+    float: left; }
+  .body h1 {
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    width: 100%; }
+  .body strong {
+    font-weight: 700; }
+  .body .important {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic; }
+  .body ol, .body ul {
+    margin: 0;
+    padding-left: 20px; }
+  .body li, .body p {
+    margin: 0;
+    line-height: 40px; }
+  .body ul li {
+    list-style-type: circle; }
+  .body a {
+    text-decoration: none;
+    color: #6a60ff; }

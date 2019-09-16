@@ -1,0 +1,112 @@
+$border: solid 1px #CCCCCC
+
+$width-body: 900px
+$width-sidebar: 300px
+$width-image: 200px
+
+body
+  margin: 0 auto
+  width: $width-body + $width-sidebar
+  color: #333
+  background-image: url('background.gif')
+
+.container
+  width: 100%
+  float: left
+  background-size: cover
+  border-left: $border
+  border-right: $border
+
+.sidebar
+  float: left
+  width: $width-sidebar
+
+  .image
+    margin-top: 10rem
+
+    img
+      width: $width-image
+      margin-left: ($width-sidebar - $width-image) / 2
+
+  .card
+    $width-card: $width-sidebar - 40px
+    text-align: center
+    float: left
+    width: $width-card
+    padding: 20px
+
+    p
+      text-align: left
+      margin: 0 5px
+      font-size: 14px
+      line-height: 40px
+      width: $width-card - 10px
+
+    h1
+      font-size: 22px
+
+    h2
+      font-size: 16px
+      color: #666666
+
+    .line
+      width: $width-card
+      line-height: 30px
+      float: left
+
+      .meta
+        float: left
+        width: 60px
+        font-weight: 600
+        font-size: 12px
+        text-align: right
+        margin-right: 10px
+
+      .value
+        float: left
+        width: $width-card - 70px
+        font-size: 14px
+        text-align: left
+
+  .text-center
+    text-align: center
+
+.body
+  float: right
+  width: $width-body
+  padding-bottom: 30rem
+
+  .card
+    width: $width-body - 40px
+    padding: 10px 20px
+    float: left
+
+  h1
+    font-size: 24px
+    color: #333333
+    text-align: left
+    //text-indent: 10px
+    width: 100%
+
+  strong
+    font-weight: 700
+
+  .important
+    font-size: 18px
+    font-weight: 600
+    font-style: italic
+
+  ol, ul
+    margin: 0
+    padding-left: 20px
+
+  li, p
+    margin: 0
+    line-height: 40px
+
+  ul li
+    list-style-type: circle
+
+  a
+    text-decoration: none
+    color: #6a60ff

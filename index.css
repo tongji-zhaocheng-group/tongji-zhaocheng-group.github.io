@@ -33,23 +33,22 @@ body {
     .sidebar .card h1 {
       font-size: 22px; }
     .sidebar .card h2 {
-      font-size: 16px;
-      color: #666666; }
+      font-size: 16px; }
     .sidebar .card .line {
       width: 260px;
       line-height: 30px;
       float: left; }
       .sidebar .card .line .meta {
         float: left;
-        width: 60px;
+        width: 80px;
         font-weight: 600;
         font-size: 12px;
         text-align: right;
         margin-right: 10px; }
       .sidebar .card .line .value {
         float: left;
-        width: 190px;
-        font-size: 14px;
+        width: 170px;
+        font-size: 13px;
         text-align: left; }
   .sidebar .text-center {
     text-align: center; }
@@ -67,6 +66,8 @@ body {
     color: #333333;
     text-align: left;
     width: 100%; }
+  .body h2 {
+    font-size: 18px; }
   .body strong {
     font-weight: 700; }
   .body .important {
@@ -84,3 +85,9 @@ body {
   .body a {
     text-decoration: none;
     color: #6a60ff; }
+
+.italic {
+  font-style: italic; }
+
+.center {
+  text-align: center; }

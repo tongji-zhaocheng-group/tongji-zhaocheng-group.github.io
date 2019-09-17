@@ -52,19 +52,22 @@ body
       width: $width-card
       line-height: 30px
       float: left
+      $width-meta-font-size: 12px
+      $count-meta-characters: 6
 
       .meta
         float: left
-        width: 80px
+        width: $width-meta-font-size * $count-meta-characters
         font-weight: 600
-        font-size: 12px
-        text-align: right
-        margin-right: 10px
+        font-size: $width-meta-font-size
+        margin-right: $width-meta-font-size
+        text-align: justify
+        text-align-last: justify
 
       .value
         float: left
-        width: $width-card - 90px
-        font-size: 13px
+        width: $width-card - $width-meta-font-size * ($count-meta-characters + 1)
+        font-size: $width-meta-font-size + 1px
         text-align: left
 
   .text-center
